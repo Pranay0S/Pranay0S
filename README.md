@@ -1,16 +1,30 @@
-## Hi there 👋
+# Hi, I'm Pranay
 
-<!--
-**Pranay0S/Pranay0S** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Computer Engineering graduate student interested in embedded systems,
+firmware development, cyber-physical systems, and low-level software.
 
-Here are some ideas to get you started:
+## Currently Working On
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **CAPS IV Pump Simulator** — cyber-physical security simulation with sensor attack injection and anomaly detection
+- **Embedded Firmware** — STM32 development, hardware interfaces, and testing
+- **TinyML** — exploring lightweight anomaly detection for resource-constrained systems
+
+## Technical Interests
+
+`C` `C++` `Python` `STM32` `Embedded Systems` `CMake` `Git`
+`Cyber-Physical Systems` `TinyML`
+
+## Featured Projects
+
+### CAPS — IV Pump Security Simulator
+Python-based cyber-physical system simulation with live sensor monitoring,
+CSV data collection, and spike, drift, and replay attack simulation.
+
+### Embedded Firmware Projects
+Firmware development involving STM32 microcontrollers, communication
+interfaces, persistent storage, and system-level debugging.
+
+## Contact
+
+- LinkedIn: [your link]
+- Email: [your professional email]
