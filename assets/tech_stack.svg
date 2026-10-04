@@ -1,373 +1,231 @@
-<svg
-    width="520"
-    height="620"
-    viewBox="0 0 520 620"
-    xmlns="http://www.w3.org/2000/svg">
+<svg width="520" height="620" viewBox="0 0 520 620" xmlns="http://www.w3.org/2000/svg">
 
-    <style>
-        .title {
-            font-family: "Segoe UI", Arial, sans-serif;
-            font-size: 24px;
-            font-weight: 700;
-            fill: #f0f6fc;
-        }
+  <rect width="520" height="620" rx="22" fill="#0d1117"/>
 
-        .subtitle {
-            font-family: "Segoe UI", Arial, sans-serif;
-            font-size: 13px;
-            fill: #8b949e;
-        }
-
-        .stack-outline {
-            fill: none;
-            stroke: #30363d;
-            stroke-width: 3;
-        }
-
-        .block {
-            rx: 10;
-            ry: 10;
-        }
-
-        .block-text {
-            font-family: "Segoe UI", Arial, sans-serif;
-            font-size: 17px;
-            font-weight: 600;
-            fill: white;
-            text-anchor: middle;
-            dominant-baseline: middle;
-        }
-
-        .small-text {
-            font-family: "Segoe UI", Arial, sans-serif;
-            font-size: 14px;
-            font-weight: 600;
-            fill: white;
-            text-anchor: middle;
-            dominant-baseline: middle;
-        }
-    </style>
-
-    <!-- Background -->
-    <rect
-        width="520"
-        height="620"
-        rx="22"
-        fill="#0d1117"
-    />
-
-    <!-- Heading -->
-    <text
-        x="260"
-        y="45"
-        class="title"
+  <text x="260" y="45"
+        fill="#f0f6fc"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="24"
+        font-weight="700"
         text-anchor="middle">
-        Tech Stack
+    Tech Stack
+  </text>
+
+  <text x="260" y="70"
+        fill="#8b949e"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="13"
+        text-anchor="middle">
+    Embedded systems, firmware and software
+  </text>
+
+  <!-- Open-top stack outline -->
+  <path d="M120 120 V550 H400 V120"
+        fill="none"
+        stroke="#30363d"
+        stroke-width="3"/>
+
+  <!-- Data Structures -->
+  <g opacity="0">
+    <rect x="140" y="475" width="240" height="55" rx="10" fill="#374151"/>
+    <text x="260" y="503"
+          fill="white"
+          font-family="Segoe UI, Arial, sans-serif"
+          font-size="17"
+          font-weight="600"
+          text-anchor="middle"
+          dominant-baseline="middle">
+      Data Structures
     </text>
 
-    <text
-        x="260"
-        y="70"
-        class="subtitle"
-        text-anchor="middle">
-        Embedded systems, firmware & software
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1"
+      keyTimes="0;0.05;0.07;1"
+      dur="12s"
+      repeatCount="indefinite"/>
+
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0,-380;0,-380;0,0;0,0"
+      keyTimes="0;0.05;0.12;1"
+      dur="12s"
+      repeatCount="indefinite"/>
+  </g>
+
+  <!-- Memory Management -->
+  <g opacity="0">
+    <rect x="140" y="415" width="240" height="55" rx="10" fill="#4b5563"/>
+    <text x="260" y="443"
+          fill="white"
+          font-family="Segoe UI, Arial, sans-serif"
+          font-size="16"
+          font-weight="600"
+          text-anchor="middle"
+          dominant-baseline="middle">
+      Memory Management
     </text>
 
-    <!-- Stack container -->
-    <rect
-        x="120"
-        y="120"
-        width="280"
-        height="430"
-        rx="18"
-        class="stack-outline"
-    />
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1"
+      keyTimes="0;0.18;0.20;1"
+      dur="12s"
+      repeatCount="indefinite"/>
 
-    <!-- ================================= -->
-    <!-- BLOCK 1 - Data Structures -->
-    <!-- ================================= -->
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0,-320;0,-320;0,0;0,0"
+      keyTimes="0;0.18;0.25;1"
+      dur="12s"
+      repeatCount="indefinite"/>
+  </g>
 
-    <g opacity="0">
+  <!-- EEPROM -->
+  <g opacity="0">
+    <rect x="140" y="355" width="240" height="55" rx="10" fill="#6b7280"/>
+    <text x="260" y="383"
+          fill="white"
+          font-family="Segoe UI, Arial, sans-serif"
+          font-size="17"
+          font-weight="600"
+          text-anchor="middle"
+          dominant-baseline="middle">
+      EEPROM
+    </text>
 
-        <rect
-            x="140"
-            y="475"
-            width="240"
-            height="55"
-            class="block"
-            fill="#374151"
-        />
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1"
+      keyTimes="0;0.31;0.33;1"
+      dur="12s"
+      repeatCount="indefinite"/>
 
-        <text
-            x="260"
-            y="503"
-            class="block-text">
-            Data Structures
-        </text>
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0,-260;0,-260;0,0;0,0"
+      keyTimes="0;0.31;0.38;1"
+      dur="12s"
+      repeatCount="indefinite"/>
+  </g>
 
-        <animateTransform
-            attributeName="transform"
-            type="translate"
-            values="0 -390; 0 -390; 0 0; 0 0"
-            keyTimes="0;0.04;0.10;1"
-            dur="10s"
-            repeatCount="indefinite"
-        />
+  <!-- AVR -->
+  <g opacity="0">
+    <rect x="140" y="295" width="240" height="55" rx="10" fill="#8b5cf6"/>
+    <text x="260" y="323"
+          fill="white"
+          font-family="Segoe UI, Arial, sans-serif"
+          font-size="17"
+          font-weight="600"
+          text-anchor="middle"
+          dominant-baseline="middle">
+      AVR
+    </text>
 
-        <animate
-            attributeName="opacity"
-            values="0;0;1;1"
-            keyTimes="0;0.04;0.06;1"
-            dur="10s"
-            repeatCount="indefinite"
-        />
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1"
+      keyTimes="0;0.44;0.46;1"
+      dur="12s"
+      repeatCount="indefinite"/>
 
-    </g>
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0,-200;0,-200;0,0;0,0"
+      keyTimes="0;0.44;0.51;1"
+      dur="12s"
+      repeatCount="indefinite"/>
+  </g>
 
-    <!-- ================================= -->
-    <!-- BLOCK 2 - Memory Management -->
-    <!-- ================================= -->
+  <!-- ESP32 -->
+  <g opacity="0">
+    <rect x="140" y="235" width="240" height="55" rx="10" fill="#e7352c"/>
+    <text x="260" y="263"
+          fill="white"
+          font-family="Segoe UI, Arial, sans-serif"
+          font-size="17"
+          font-weight="600"
+          text-anchor="middle"
+          dominant-baseline="middle">
+      ESP32
+    </text>
 
-    <g opacity="0">
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1"
+      keyTimes="0;0.57;0.59;1"
+      dur="12s"
+      repeatCount="indefinite"/>
 
-        <rect
-            x="140"
-            y="415"
-            width="240"
-            height="55"
-            class="block"
-            fill="#4b5563"
-        />
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0,-140;0,-140;0,0;0,0"
+      keyTimes="0;0.57;0.64;1"
+      dur="12s"
+      repeatCount="indefinite"/>
+  </g>
 
-        <text
-            x="260"
-            y="443"
-            class="small-text">
-            Memory Management
-        </text>
+  <!-- C -->
+  <g opacity="0">
+    <rect x="140" y="175" width="240" height="55" rx="10" fill="#00599c"/>
+    <text x="260" y="203"
+          fill="white"
+          font-family="Segoe UI, Arial, sans-serif"
+          font-size="17"
+          font-weight="600"
+          text-anchor="middle"
+          dominant-baseline="middle">
+      C
+    </text>
 
-        <animateTransform
-            attributeName="transform"
-            type="translate"
-            values="0 -330; 0 -330; 0 0; 0 0"
-            keyTimes="0;0.14;0.20;1"
-            dur="10s"
-            repeatCount="indefinite"
-        />
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1"
+      keyTimes="0;0.70;0.72;1"
+      dur="12s"
+      repeatCount="indefinite"/>
 
-        <animate
-            attributeName="opacity"
-            values="0;0;1;1"
-            keyTimes="0;0.14;0.16;1"
-            dur="10s"
-            repeatCount="indefinite"
-        />
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0,-80;0,-80;0,0;0,0"
+      keyTimes="0;0.70;0.77;1"
+      dur="12s"
+      repeatCount="indefinite"/>
+  </g>
 
-    </g>
+  <!-- C++ -->
+  <g opacity="0">
+    <rect x="140" y="115" width="240" height="55" rx="10" fill="#004482"/>
+    <text x="260" y="143"
+          fill="white"
+          font-family="Segoe UI, Arial, sans-serif"
+          font-size="17"
+          font-weight="600"
+          text-anchor="middle"
+          dominant-baseline="middle">
+      C++
+    </text>
 
-    <!-- ================================= -->
-    <!-- BLOCK 3 - EEPROM -->
-    <!-- ================================= -->
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1"
+      keyTimes="0;0.83;0.85;1"
+      dur="12s"
+      repeatCount="indefinite"/>
 
-    <g opacity="0">
-
-        <rect
-            x="140"
-            y="355"
-            width="240"
-            height="55"
-            class="block"
-            fill="#6b7280"
-        />
-
-        <text
-            x="260"
-            y="383"
-            class="block-text">
-            EEPROM
-        </text>
-
-        <animateTransform
-            attributeName="transform"
-            type="translate"
-            values="0 -270; 0 -270; 0 0; 0 0"
-            keyTimes="0;0.24;0.30;1"
-            dur="10s"
-            repeatCount="indefinite"
-        />
-
-        <animate
-            attributeName="opacity"
-            values="0;0;1;1"
-            keyTimes="0;0.24;0.26;1"
-            dur="10s"
-            repeatCount="indefinite"
-        />
-
-    </g>
-
-    <!-- ================================= -->
-    <!-- BLOCK 4 - AVR -->
-    <!-- ================================= -->
-
-    <g opacity="0">
-
-        <rect
-            x="140"
-            y="295"
-            width="240"
-            height="55"
-            class="block"
-            fill="#8b5cf6"
-        />
-
-        <text
-            x="260"
-            y="323"
-            class="block-text">
-            AVR
-        </text>
-
-        <animateTransform
-            attributeName="transform"
-            type="translate"
-            values="0 -210; 0 -210; 0 0; 0 0"
-            keyTimes="0;0.34;0.40;1"
-            dur="10s"
-            repeatCount="indefinite"
-        />
-
-        <animate
-            attributeName="opacity"
-            values="0;0;1;1"
-            keyTimes="0;0.34;0.36;1"
-            dur="10s"
-            repeatCount="indefinite"
-        />
-
-    </g>
-
-    <!-- ================================= -->
-    <!-- BLOCK 5 - ESP32 -->
-    <!-- ================================= -->
-
-    <g opacity="0">
-
-        <rect
-            x="140"
-            y="235"
-            width="240"
-            height="55"
-            class="block"
-            fill="#e7352c"
-        />
-
-        <text
-            x="260"
-            y="263"
-            class="block-text">
-            ESP32
-        </text>
-
-        <animateTransform
-            attributeName="transform"
-            type="translate"
-            values="0 -150; 0 -150; 0 0; 0 0"
-            keyTimes="0;0.44;0.50;1"
-            dur="10s"
-            repeatCount="indefinite"
-        />
-
-        <animate
-            attributeName="opacity"
-            values="0;0;1;1"
-            keyTimes="0;0.44;0.46;1"
-            dur="10s"
-            repeatCount="indefinite"
-        />
-
-    </g>
-
-    <!-- ================================= -->
-    <!-- BLOCK 6 - C -->
-    <!-- ================================= -->
-
-    <g opacity="0">
-
-        <rect
-            x="140"
-            y="175"
-            width="240"
-            height="55"
-            class="block"
-            fill="#00599c"
-        />
-
-        <text
-            x="260"
-            y="203"
-            class="block-text">
-            C
-        </text>
-
-        <animateTransform
-            attributeName="transform"
-            type="translate"
-            values="0 -90; 0 -90; 0 0; 0 0"
-            keyTimes="0;0.54;0.60;1"
-            dur="10s"
-            repeatCount="indefinite"
-        />
-
-        <animate
-            attributeName="opacity"
-            values="0;0;1;1"
-            keyTimes="0;0.54;0.56;1"
-            dur="10s"
-            repeatCount="indefinite"
-        />
-
-    </g>
-
-    <!-- ================================= -->
-    <!-- BLOCK 7 - C++ -->
-    <!-- ================================= -->
-
-    <g opacity="0">
-
-        <rect
-            x="140"
-            y="115"
-            width="240"
-            height="55"
-            class="block"
-            fill="#004482"
-        />
-
-        <text
-            x="260"
-            y="143"
-            class="block-text">
-            C++
-        </text>
-
-        <animateTransform
-            attributeName="transform"
-            type="translate"
-            values="0 -55; 0 -55; 0 0; 0 0"
-            keyTimes="0;0.64;0.70;1"
-            dur="10s"
-            repeatCount="indefinite"
-        />
-
-        <animate
-            attributeName="opacity"
-            values="0;0;1;1"
-            keyTimes="0;0.64;0.66;1"
-            dur="10s"
-            repeatCount="indefinite"
-        />
-
-    </g>
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0,-55;0,-55;0,0;0,0"
+      keyTimes="0;0.83;0.90;1"
+      dur="12s"
+      repeatCount="indefinite"/>
+  </g>
 
 </svg>

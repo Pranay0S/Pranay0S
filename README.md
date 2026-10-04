@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=750&lines=Computer+Engineering+M.S.;Embedded+Systems+%7C+Firmware+%7C+CPS;TinyML+%7C+Cyber-Physical+Security;Cogito+Ergo+Sum;-2.1+K/D" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=750&lines=Computer+Engineering+M.S.;Embedded+Systems+%7C+Firmware+%7C+CPS;TinyML+%7C+Cyber-Physical+Security;Cogito+Ergo+Sum;-2.1+K%2FD" />
 </p>
 
 <p align="center">
@@ -24,12 +24,15 @@ Computer Engineering M.S. student interested in embedded systems, firmware, cybe
 
 ## Current Projects
 
-- CAPS IV Pump Security Simulator with an in-built RNN on limited memory capacity.
-- IoT Temperature Sensor that publishes information to AWS IoT, with a GUI.
-- AbleTone Multi-File Expansion
+- **CAPS IV Pump Security Simulator** — cyber-physical IV pump simulation with an embedded RNN designed around limited memory constraints.
+- **IoT Temperature Sensor** — collects temperature data, publishes readings to AWS IoT, and provides a graphical user interface.
+- **AbleTone Multi-File Expansion** — firmware/software work supporting multi-file functionality.
 
 ## Tech Stack
 
 <p align="center">
-  <img src="./assets/tech_stack.svg" width="520" />
+  <img
+    src="https://raw.githubusercontent.com/Pranay0S/Pranay0S/main/assets/tech_stack.svg"
+    width="520"
+  />
 </p>
