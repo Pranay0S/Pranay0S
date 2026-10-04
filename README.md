@@ -26,5 +26,5 @@ interfaces, persistent storage, and system-level debugging.
 
 ## Contact
 
-- LinkedIn: [your link]
-- Email: [your professional email]
+- LinkedIn: [https://www.linkedin.com/in/pranaysrivastavace]
+- Email: [srivastavap.2004@gmail.com]
