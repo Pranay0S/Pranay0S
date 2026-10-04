@@ -31,8 +31,5 @@ Computer Engineering M.S. student interested in embedded systems, firmware, cybe
 ## Tech Stack
 
 <p align="center">
-  <img
-    src="https://raw.githubusercontent.com/Pranay0S/Pranay0S/main/assets/tech_stack.svg"
-    width="520"
-  />
+  <img src="./assets/tech_stack.svg" width="520" />
 </p>
